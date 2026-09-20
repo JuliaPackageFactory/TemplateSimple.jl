@@ -1,0 +1,10 @@
+name = "Simple"
+uuid = "baa55490-87fb-4830-a51e-9c9b2e958e9e"
+authors = ["PkgFactory CI"]
+version = "0.0.1"
+
+[compat]
+julia = "1.12"
+
+[workspace]
+projects = ["test", "docs"]
