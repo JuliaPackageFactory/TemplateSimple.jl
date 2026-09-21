@@ -4,7 +4,7 @@ CurrentModule = PkgFactorySimple
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/ohno/PkgFactorySimple.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/PkgFactorySimple.jl/tree/main/src).
 
 ## Index
 

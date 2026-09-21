@@ -8,7 +8,7 @@ makedocs(;
     authors = "PkgFactory CI",
     sitename = "PkgFactorySimple.jl",
     format = Documenter.HTML(;
-        canonical = "https://ohno.github.io/PkgFactorySimple.jl",
+        canonical = "https://JuliaPackageFactory.github.io/PkgFactorySimple.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/ohno/PkgFactorySimple.jl",
+    repo = "github.com/JuliaPackageFactory/PkgFactorySimple.jl",
     devbranch = "main",
 )
