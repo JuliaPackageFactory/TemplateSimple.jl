@@ -26,4 +26,5 @@ julia> import TemplateSimple; TemplateSimple.hello()
 ## Documentation
 
 - Home: https://JuliaPackageFactory.github.io/TemplateSimple.jl
+- Examples: https://JuliaPackageFactory.github.io/TemplateSimple.jl/dev/examples/
 - API Reference: https://JuliaPackageFactory.github.io/TemplateSimple.jl/dev/api
