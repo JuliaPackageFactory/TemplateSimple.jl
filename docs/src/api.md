@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = PkgFactorySimple
+CurrentModule = TemplateSimple
 ```
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/PkgFactorySimple.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/JuliaPackageFactory/TemplateSimple.jl/tree/main/src).
 
 ## Index
 
@@ -14,5 +14,5 @@ The API reference below is generated from docstrings in the [source code](https:
 ## Docstrings
 
 ```@autodocs
-Modules = [PkgFactorySimple]
+Modules = [TemplateSimple]
 ```

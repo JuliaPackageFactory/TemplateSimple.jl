@@ -1,6 +1,6 @@
-using PkgFactorySimple
+using TemplateSimple
 using Test
 
-@testset "PkgFactorySimple.hello" begin
-    @test PkgFactorySimple.hello() == "Hello, World!"
+@testset "TemplateSimple.hello" begin
+    @test TemplateSimple.hello() == "Hello, World!"
 end

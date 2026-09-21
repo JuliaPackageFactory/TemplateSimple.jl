@@ -1,14 +1,14 @@
-using PkgFactorySimple
+using TemplateSimple
 using Documenter
 
-DocMeta.setdocmeta!(PkgFactorySimple, :DocTestSetup, :(using PkgFactorySimple); recursive = true)
+DocMeta.setdocmeta!(TemplateSimple, :DocTestSetup, :(using TemplateSimple); recursive = true)
 
 makedocs(;
-    modules = [PkgFactorySimple],
+    modules = [TemplateSimple],
     authors = "PkgFactory CI",
-    sitename = "PkgFactorySimple.jl",
+    sitename = "TemplateSimple.jl",
     format = Documenter.HTML(;
-        canonical = "https://JuliaPackageFactory.github.io/PkgFactorySimple.jl",
+        canonical = "https://JuliaPackageFactory.github.io/TemplateSimple.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/JuliaPackageFactory/PkgFactorySimple.jl",
+    repo = "github.com/JuliaPackageFactory/TemplateSimple.jl",
     devbranch = "main",
 )
