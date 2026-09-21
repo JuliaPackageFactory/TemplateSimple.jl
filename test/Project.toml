@@ -1,5 +1,5 @@
 [deps]
-Simple = "baa55490-87fb-4830-a51e-9c9b2e958e9e"
+PkgFactorySimple = "baa55490-87fb-4830-a51e-9c9b2e958e9e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]

@@ -1,14 +1,14 @@
-using Simple
+using PkgFactorySimple
 using Documenter
 
-DocMeta.setdocmeta!(Simple, :DocTestSetup, :(using Simple); recursive = true)
+DocMeta.setdocmeta!(PkgFactorySimple, :DocTestSetup, :(using PkgFactorySimple); recursive = true)
 
 makedocs(;
-    modules = [Simple],
+    modules = [PkgFactorySimple],
     authors = "PkgFactory CI",
-    sitename = "Simple.jl",
+    sitename = "PkgFactorySimple.jl",
     format = Documenter.HTML(;
-        canonical = "https://ohno.github.io/Simple.jl",
+        canonical = "https://ohno.github.io/PkgFactorySimple.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/ohno/Simple.jl",
+    repo = "github.com/ohno/PkgFactorySimple.jl",
     devbranch = "main",
 )

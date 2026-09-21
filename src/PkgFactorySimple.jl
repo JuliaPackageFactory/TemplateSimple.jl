@@ -1,4 +1,4 @@
-module Simple
+module PkgFactorySimple
 
 """
 Return a friendly greeting.
@@ -6,7 +6,7 @@ Return a friendly greeting.
 # Examples
 
 ```jldoctest
-julia> Simple.hello()
+julia> PkgFactorySimple.hello()
 "Hello, World!"
 ```
 """

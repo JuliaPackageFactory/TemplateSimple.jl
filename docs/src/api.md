@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = Simple
+CurrentModule = PkgFactorySimple
 ```
 
 # API Reference
 
-The API reference below is generated from docstrings in the [source code](https://github.com/ohno/Simple.jl/tree/main/src).
+The API reference below is generated from docstrings in the [source code](https://github.com/ohno/PkgFactorySimple.jl/tree/main/src).
 
 ## Index
 
@@ -14,5 +14,5 @@ The API reference below is generated from docstrings in the [source code](https:
 ## Docstrings
 
 ```@autodocs
-Modules = [Simple]
+Modules = [PkgFactorySimple]
 ```

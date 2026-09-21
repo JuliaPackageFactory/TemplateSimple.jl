@@ -1,22 +1,22 @@
 ```@meta
-CurrentModule = Simple
+CurrentModule = PkgFactorySimple
 ```
 
 # Examples
 
-The examples below show how to load Simple.jl and use its generated starter function.
+The examples below show how to load PkgFactorySimple.jl and use its generated starter function.
 
 ## Basic usage
 
 ```@repl
-import Simple
-Simple.hello()
+import PkgFactorySimple
+PkgFactorySimple.hello()
 ```
 
 ## Composing the result
 
 ```@example
-import Simple
-greeting = Simple.hello()
-"$(greeting) Welcome to Simple.jl."
+import PkgFactorySimple
+greeting = PkgFactorySimple.hello()
+"$(greeting) Welcome to PkgFactorySimple.jl."
 ```
