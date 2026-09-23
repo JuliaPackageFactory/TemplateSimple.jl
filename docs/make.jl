@@ -12,7 +12,7 @@ makedocs(;
         prettyurls = get(ENV, "CI", "false") == "true",
         canonical = "https://JuliaPackageFactory.github.io/TemplateSimple.jl",
         edit_link = "main",
-        assets = String[],
+        assets = ["assets/custom.css"],
     ),
     pages = [
         "Home" => "index.md",
