@@ -1,5 +1,8 @@
 module TemplateSimple
 
+# Public API, accessed as TemplateSimple.hello without exporting the name.
+public hello
+
 """
 Return a friendly greeting.
 

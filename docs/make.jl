@@ -4,10 +4,12 @@ using Documenter
 DocMeta.setdocmeta!(TemplateSimple, :DocTestSetup, :(using TemplateSimple); recursive = true)
 
 makedocs(;
+    checkdocs = :public,
     modules = [TemplateSimple],
     authors = "PkgFactory CI",
     sitename = "TemplateSimple.jl",
     format = Documenter.HTML(;
+        prettyurls = get(ENV, "CI", "false") == "true",
         canonical = "https://JuliaPackageFactory.github.io/TemplateSimple.jl",
         edit_link = "main",
         assets = String[],
