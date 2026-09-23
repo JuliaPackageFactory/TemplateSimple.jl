@@ -1,6 +1,6 @@
 name = "TemplateSimple"
 uuid = "baa55490-87fb-4830-a51e-9c9b2e958e9e"
-authors = ["PkgFactory CI"]
+authors = ["Shuhei Ohno"]
 version = "0.0.1"
 
 [compat]

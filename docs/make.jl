@@ -6,7 +6,7 @@ DocMeta.setdocmeta!(TemplateSimple, :DocTestSetup, :(using TemplateSimple); recu
 makedocs(;
     checkdocs = :public,
     modules = [TemplateSimple],
-    authors = "PkgFactory CI",
+    authors = "Shuhei Ohno",
     sitename = "TemplateSimple.jl",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
